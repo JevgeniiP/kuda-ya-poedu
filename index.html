@@ -26,9 +26,14 @@
 		<section class="travel">
 			<form class="form">
 				<h3 class="form__title">Так куда же я поеду?</h3>
-				<fieldset class="form__travel-info"></fieldset>
-				<fieldset class="form__cause-info"></fieldset>
+				<fieldset class="form__travel-info">
+					<input class="form__item" name="place" type="text" placeholder="Я поеду ..." required>
+					<textarea class="form__item form__text-area" name="reason" placeholder="Потому что я ..."></textarea>
+					<button class="form__button" type="submit">Поехали уже
+						куда-нибудь!</button>
+				</fieldset>
 			</form>
+			<img class="travel__image" src="./image/airport-schedule.jpg" alt="Табло авиарейсов">
 		</section>
 		<section class="digits">
 		</section>
