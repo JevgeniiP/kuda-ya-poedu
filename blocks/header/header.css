@@ -3,7 +3,9 @@
 	min-height: 50px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin: 30px var(--side-margin-max) 0;
+	align-items: flex-end;
 	border: red 1px solid;
+	display: flex;
+	max-width: 1240px;
+	margin: 0 auto;
 }
