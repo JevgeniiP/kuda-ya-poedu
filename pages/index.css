@@ -1,25 +1,25 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/root.css);
-
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/header/header.css);
-
 @import url(../blocks/intro/inro.css);
 @import url(../blocks/intro/__link/intro__link.css);
 @import url(../blocks/intro/__title/inro__title.css);
 @import url(../blocks/intro/__image/inro__image.css);
-
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__titile/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
-
 @import url(../blocks/digits/digits.css);
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__video/cover__video.css);
-
 @import url(../blocks/footer/footer.css);
+
+
+
+
+
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__links/header__links.css);
