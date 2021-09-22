@@ -5,3 +5,12 @@
     grid-template-rows: auto;
     min-height: 575px;
 }
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .mountain__place  {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr ;
+        width: 100%;
+        justify-content: center;
+        
+    }
+}

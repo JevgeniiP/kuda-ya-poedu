@@ -3,5 +3,11 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(../image/places-mountains.jpeg);
+    background-image: url(./places-mountains.jpeg);
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .mountain__image{
+        grid-row: 1;
+    }
 }

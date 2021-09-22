@@ -3,5 +3,6 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(../image/places-forest.jpeg);
+    background-image: url(../__image/places-forest.jpeg);
 }
+

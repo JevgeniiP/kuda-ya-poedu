@@ -9,3 +9,9 @@
     color: black;
     max-width: max-content;
 }
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .mountain__title {
+        margin: 5% auto auto auto;
+    }
+}

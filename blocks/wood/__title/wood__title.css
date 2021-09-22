@@ -10,3 +10,10 @@
     max-width: max-content;
     text-align: center;
 }
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .wood__title{
+        margin: 5% auto auto auto;
+        grid-row: 1;
+    }
+}
