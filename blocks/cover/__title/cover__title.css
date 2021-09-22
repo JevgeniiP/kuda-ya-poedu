@@ -1,2 +1,12 @@
 .cover__title {
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	margin: 0;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.15;
+	color: #fff;
 }

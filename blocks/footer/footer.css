@@ -1,2 +1,8 @@
 .footer {
+	max-width: 100%;
+	height: 665px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fecda7;
 }
