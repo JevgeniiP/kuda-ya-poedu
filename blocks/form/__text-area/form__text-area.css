@@ -1,0 +1,7 @@
+.form__text-area {
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+	height: 110px;
+	resize: none;
+}

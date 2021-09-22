@@ -1,0 +1,7 @@
+.form__travel-info {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	padding: 0;
+	margin: 85px 0 0;
+}
