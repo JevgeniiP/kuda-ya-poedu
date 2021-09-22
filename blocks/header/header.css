@@ -1,9 +1,11 @@
 .header {
-	max-width: calc(var(--width));
 	min-height: 50px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin: 30px var(--side-margin-max) 0;
-	border: red 1px solid;
+	align-items: flex-end;
+	width: 92%;
+	display: flex;
+	max-width: 1240px;
+	margin: 0 auto;
+	flex-wrap: wrap;
 }

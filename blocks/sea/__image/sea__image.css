@@ -1,0 +1,7 @@
+.sea__image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../__image/places-black-sea.jpeg);
+}

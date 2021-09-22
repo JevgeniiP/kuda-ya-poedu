@@ -1,0 +1,12 @@
+.sea__textarea {
+    max-width: 550px;
+    margin: 22% auto 0 auto;
+    width: 80%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .sea__textarea {
+        margin-top: 5%;
+        width: 90%;
+    }
+}

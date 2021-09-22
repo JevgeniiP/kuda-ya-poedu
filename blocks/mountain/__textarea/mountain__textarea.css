@@ -1,0 +1,12 @@
+.mountain__textarea {
+    max-width: 540px;
+    margin: 36% auto auto 8%;
+    width: 80%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .mountain__textarea {
+        margin-top: 5%;
+        width: 90%;
+    }
+}
