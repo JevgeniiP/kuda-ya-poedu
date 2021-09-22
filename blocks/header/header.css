@@ -1,13 +1,12 @@
 .header {
-	max-width: calc(var(--width));
+	
 	min-height: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	
-	border: red 1px solid;
+	width: 90.05%;
 	display: flex;
 	max-width: 1240px;
 	margin: 0 auto;
-	
+	flex-wrap: wrap;
 }
