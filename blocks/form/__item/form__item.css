@@ -10,3 +10,9 @@
 	line-height: 1.125;
 	color: #000000;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.form__item {
+		font-size: calc(var(--fs));
+	}
+}

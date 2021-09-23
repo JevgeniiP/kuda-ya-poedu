@@ -12,3 +12,10 @@
 	cursor: pointer;
 	opacity: 0.6;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.cover__play-button {
+		width: calc(var(--w));
+		height: calc(var(--h));
+	}
+}

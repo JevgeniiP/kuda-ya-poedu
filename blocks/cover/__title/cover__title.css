@@ -10,3 +10,11 @@
 	line-height: 1.15;
 	color: #fff;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.cover__title {
+		left: calc(var(--left));
+		top: calc(var(--top));
+		font-size: calc(var(--fs));
+	}
+}

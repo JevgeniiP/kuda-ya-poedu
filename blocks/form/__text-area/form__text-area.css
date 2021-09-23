@@ -5,3 +5,9 @@
 	height: 110px;
 	resize: none;
 }
+
+@media screen and (max-width: 768px) {
+	.form__text-area {
+		margin-top: 10px;
+	}
+}

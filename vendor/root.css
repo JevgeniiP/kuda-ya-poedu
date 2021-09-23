@@ -16,42 +16,118 @@
 	--side-margin: (var(--side-margin-max) * 1px) - var(--step-margin) * (var(--max-b) * 1px - 100vw);
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-	.header {
-		--max-w: 1184;
-		--min-w: 928;
-		--max-b: 1280;
-		--min-b: 1024;
-		--side-margin-max: 48px;
-		--side-margin-min: 12;
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.form__title {
+		--mx-fs: 40;
+		--mn-fs: 20;
+		--max-b: 1377;
+		--min-b: 320;
 
-		--delta-w: (var(--max-w) - var(--min-w));
+		--delta-fs: (var(--mx-fs) - var(--mn-fs));
 		--delta-b: (var(--max-b) - var(--min-b));
-		--step-w: var(--delta-w) / var(--delta-b);
-		--width: (var(--max-w) * 1px) - var(--step-w) * (var(--max-b) * 1px - 100vw);
-
-		/*--delta-margin: (var(--side-margin-max) - var(--side-margin-min));
-		--step-margin: var(--delta-margin) / var(--delta-b);
-		--side-margin: (var(--side-margin-max) * 1px) - var(--step-margin) * (var(--max-b) * 1px - 100vw);*/
+		--step-fs: var(--delta-fs) / var(--delta-b);
+		--fs: (var(--mx-fs) * 1px) - var(--step-fs) * (var(--max-b) * 1px - 100vw);
 	}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-	.lead {
-		--max-w: 984;
-		--min-w: 928;
-		--max-b: 1280;
-		--min-b: 1024;
-		--side-margin-max: 148;
-		--side-margin-min: 48;
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.form__item {
+		--mx-fs: 16;
+		--mn-fs: 8;
+		--max-b: 1377;
+		--min-b: 320;
 
-		--delta-w: (var(--max-w) - var(--min-w));
+		--delta-fs: (var(--mx-fs) - var(--mn-fs));
+		--delta-b: (var(--max-b) - var(--min-b));
+		--step-fs: var(--delta-fs) / var(--delta-b);
+		--fs: (var(--mx-fs) * 1px) - var(--step-fs) * (var(--max-b) * 1px - 100vw);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.form__button {
+		--mx-fs: 16;
+		--mn-fs: 8;
+		--max-b: 1377;
+		--min-b: 320;
+
+		--delta-fs: (var(--mx-fs) - var(--mn-fs));
+		--delta-b: (var(--max-b) - var(--min-b));
+		--step-fs: var(--delta-fs) / var(--delta-b);
+		--fs: (var(--mx-fs) * 1px) - var(--step-fs) * (var(--max-b) * 1px - 100vw);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.cover__title {
+		--mx-left: 70;
+		--mn-left: 30;
+		--max-b: 1377;
+		--min-b: 320;
+		--mx-top: 140;
+		--mn-top: 20;
+		--mx-fs: 40;
+		--mn-fs: 12;
+
+		--delta-left: (var(--mx-left) - var(--mn-left));
+		--delta-b: (var(--max-b) - var(--min-b));
+		--step-left: var(--delta-left) / var(--delta-b);
+		--left: (var(--mx-left) * 1px) - var(--step-left) * (var(--max-b) * 1px - 100vw);
+
+		--delta-top: (var(--mx-top) - var(--mn-top));
+		--step-top: var(--delta-top) / var(--delta-b);
+		--top: (var(--mx-top) * 1px) - var(--step-top) * (var(--max-b) * 1px - 100vw);
+
+		--delta-fs: (var(--mx-fs) - var(--mn-fs));
+		--step-fs: var(--delta-fs) / var(--delta-b);
+		--fs: (var(--mx-fs) * 1px) - var(--step-fs) * (var(--max-b) * 1px - 100vw);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.cover__play-button {
+		--mx-w: 83;
+		--mn-w: 20;
+		--max-b: 1377;
+		--min-b: 320;
+		--mx-h: 83;
+		--mn-h: 20;
+
+		--delta-w: (var(--mx-w) - var(--mn-w));
 		--delta-b: (var(--max-b) - var(--min-b));
 		--step-w: var(--delta-w) / var(--delta-b);
-		--width: (var(--max-w) * 1px) - var(--step-w) * (var(--max-b) * 1px - 100vw);
+		--w: (var(--mx-w) * 1px) - var(--step-w) * (var(--max-b) * 1px - 100vw);
 
-		--delta-margin: (var(--side-margin-max) - var(--side-margin-min));
-		--step-margin: var(--delta-margin) / var(--delta-b);
-		--side-margin: (var(--side-margin-max) * 1px) - var(--step-margin) * (var(--max-b) * 1px - 100vw);
+		--delta-h: (var(--mx-h) - var(--mn-h));
+		--step-h: var(--delta-h) / var(--delta-b);
+		--h: (var(--mx-h) * 1px) - var(--step-h) * (var(--max-b) * 1px - 100vw);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.footer {
+		--max-b: 1377;
+		--min-b: 320;
+		--mx-h: 665;
+		--mn-h: 50;
+
+		--delta-b: (var(--max-b) - var(--min-b));
+		--delta-h: (var(--mx-h) - var(--mn-h));
+		--step-h: var(--delta-h) / var(--delta-b);
+		--h: (var(--mx-h) * 1px) - var(--step-h) * (var(--max-b) * 1px - 100vw);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.footer__copyright {
+		--max-b: 1377;
+		--min-b: 320;
+		--mx-fs: 38;
+		--mn-fs: 12;
+
+		--delta-b: (var(--max-b) - var(--min-b));
+		--delta-fs: (var(--mx-fs) - var(--mn-fs));
+		--step-fs: var(--delta-fs) / var(--delta-b);
+		--fs: (var(--mx-fs) * 1px) - var(--step-fs) * (var(--max-b) * 1px - 100vw);
 	}
 }

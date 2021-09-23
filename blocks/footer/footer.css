@@ -6,3 +6,9 @@
 	align-items: center;
 	background-color: #fecda7;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.footer {
+		height: calc(var(--h));
+	}
+}
