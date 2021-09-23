@@ -1,10 +1,11 @@
 .intro__text {
-    width: 61%;
+    width: 75%;
+    max-width: 750px;
 }
-@media screen and (min-width: 320px) and (max-width: 700px){
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
     .intro__text {
         width: 90%;
         text-align: center;
-        
     }
 }

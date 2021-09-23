@@ -8,14 +8,22 @@
     color: black;
     margin: 27px 0 0 0;
     padding: 0;
-   
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px){
+@media screen and (min-width: 320px) and (max-width: 700px) {
     .intro__title {
-        font-size: 20px;
+        font-size: 37px;
         text-align: center;
         line-height: 123%;
-        margin:0;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .intro__title {
+        font-size: 20px;
+        margin-right: 20px;
+        font-size: 33px;
+        text-align: left;
     }
 }
