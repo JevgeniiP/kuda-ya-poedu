@@ -7,3 +7,9 @@
 	line-height: 1.1;
 	color: #000000;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.footer__copyright {
+		font-size: calc(var(--fs));
+	}
+}

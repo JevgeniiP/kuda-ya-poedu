@@ -11,3 +11,10 @@
 	color: #ffffff;
 	align-self: flex-end;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1377px) {
+	.form__button {
+		font-size: calc(var(--fs));
+		margin-top: 10px;
+	}
+}
