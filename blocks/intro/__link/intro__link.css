@@ -1,2 +1,17 @@
 .intro__link {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    display: inline;
+    z-index: 3;
+    text-decoration: none;
+    color: #ebb995;
+    margin: 0;
+    padding: 0;
+    transition: .2s linear;
+}
+
+.intro__link:hover {
+    color: lightcoral;
 }
