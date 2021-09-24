@@ -1,2 +1,13 @@
 .digits {
+    width: 95%;
+    margin: 5.1% auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1237px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .digits {
+        text-align: center;
+    }
 }
