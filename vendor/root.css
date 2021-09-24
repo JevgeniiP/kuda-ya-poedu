@@ -1,21 +1,3 @@
-:root {
-	--max-w: 1;
-	--min-w: 1;
-	--max-b: 1;
-	--min-b: 1;
-	--side-margin-max: 1;
-	--side-margin-min: 1;
-
-	--delta-w: (var(--max-w) - var(--min-w));
-	--delta-b: (var(--max-b) - var(--min-b));
-	--step-w: var(--delta-w) / var(--delta-b);
-	--width: (var(--max-w) * 1px) - var(--step-w) * (var(--max-b) * 1px - 100vw);
-
-	--delta-margin: (var(--side-margin-max) - var(--side-margin-min));
-	--step-margin: var(--delta-margin) / var(--delta-b);
-	--side-margin: (var(--side-margin-max) * 1px) - var(--step-margin) * (var(--max-b) * 1px - 100vw);
-}
-
 @media screen and (min-width: 320px) and (max-width: 1377px) {
 	.form__title {
 		--mx-fs: 40;
