@@ -5,16 +5,43 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__link/intro__link.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
-@import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__titile/place__title.css);
-@import url(../blocks/place/__text/place__text.css);
+
+@import url(../blocks/wood/wood.css);
+@import url(../blocks/wood/__place/wood__place.css);
+@import url(../blocks/wood/__image/wood__image.css);
+@import url(../blocks/wood/__title/wood__title.css);
+@import url(../blocks/wood/__textarea/wood__textarea.css);
+@import url(../blocks/wood/__text/wood__text.css);
+
+@import url(../blocks/mountain/mountain.css);
+@import url(../blocks/mountain/__place/mountain__place.css);
+@import url(../blocks/mountain/__title/mountain__title.css);
+@import url(../blocks/mountain/__textarea/mountain__textarea.css);
+@import url(../blocks/mountain/__text/text.css);
+@import url(../blocks/mountain/__image/mountain__image.css);
+
+@import url(../blocks/sea/sea.css);
+@import url(../blocks/sea/__place/sea__place.css);
+@import url(../blocks/sea/__image/sea__image.css);
+@import url(../blocks/sea/__title/sea__title.css);
+@import url(../blocks/sea/__textarea/sea__textarea.css);
+@import url(../blocks/sea/__text/sea__text.css);
+
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__link/digits__link.css);
+@import url(../blocks/digits/__title/digits__title.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__text/table__text.css);
 
 @import url(../blocks/travel/travel.css);
 @import url(../blocks/form/form.css);
@@ -32,55 +59,3 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__links/header__links.css);
-
-@import url(../blocks/intro/__image/inro__image.css);
-@import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/wood/wood.css);
-@import url(../blocks/wood/__place/wood__place.css);
-@import url(../blocks/wood/__image/wood__image.css);
-@import url(../blocks/wood/__title/wood__title.css);
-@import url(../blocks/wood/__textarea/wood__textarea.css);
-@import url(../blocks/wood/__text/wood__text.css);
-@import url(../blocks/mountain/mountain.css);
-@import url(../blocks/mountain/__place/mountain__place.css);
-@import url(../blocks/mountain/__image/mountain__image.css);
-@import url(../blocks/mountain/__title/mountain__title.css);
-@import url(../blocks/mountain/__textarea/mountain__textarea.css);
-@import url(../blocks/mountain/__text/text.css);
-@import url(../blocks/sea/sea.css);
-@import url(../blocks/sea/__place/sea__place.css);
-@import url(../blocks/sea/__title/sea__title.css);
-@import url(../blocks/sea/__textarea/sea__textarea.css);
-@import url(../blocks/sea/__text/sea__text.css);
-@import url(../blocks/sea/__image/sea__image.css);
-
-@import url(../blocks/digits/__link/digits__link.css);
-@import url(../blocks/digits/__title/digits__title.css);
-@import url(../blocks/table/table.css);
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__title/table__title.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======

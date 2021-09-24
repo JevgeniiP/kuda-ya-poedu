@@ -2,13 +2,11 @@
     width: 92%;
     margin: 0 auto;
     display: flex;
-    max-height: 383px;
     margin-top: 92px;
     align-items: center;
-    max-height: max-content;
 }
-@media screen and (min-width: 200px) and (max-width: 700px){
-    .intro  {
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .intro {
         flex-direction: column-reverse;
         width: 100%;
         justify-content: center;
