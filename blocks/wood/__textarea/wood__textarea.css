@@ -1,7 +1,7 @@
 .wood__textarea {
     max-width: 540px;
-    margin: 29% auto 0 auto;
-    width: 80%;
+    margin: 30% auto 0 auto;
+    width: 79%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
