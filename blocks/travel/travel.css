@@ -10,13 +10,7 @@
 @media screen and (max-width: 768px) {
 	.travel {
 		grid-template-columns: 1fr;
-		margin-top: 20px;
-		gap: 10px;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.travel {
 		margin-top: 0;
+		gap: 10px;
 	}
 }
