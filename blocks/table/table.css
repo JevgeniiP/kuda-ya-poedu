@@ -9,7 +9,6 @@
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .table {
         grid-template-columns: 100%;
-        grid-row-gap: 5%;
         text-align: center;
     }
 }
