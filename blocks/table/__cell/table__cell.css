@@ -1,0 +1,7 @@
+.table__cell {
+    margin-bottom: 10%;
+}
+
+.table__cell:first-child {
+    margin-left: 0%;
+}
